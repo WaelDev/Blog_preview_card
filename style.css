@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
 
-
 :root {
   /* Colors */
   --Primary: hsl(47, 88%, 63%);
@@ -46,7 +45,7 @@ body {
   width: fit-content;
   border-radius: 3px;
   font-weight: var(--title-font-weight);
-  font-size: 12px;
+  font-size: 0.75em;
 }
 
 .blog_image{
@@ -66,11 +65,11 @@ h1:hover {
 }
 
 .publish_date {
-  font-size: 10px;
+  font-size: 0.625em;
 }
 
 .blog_description {
-  font-size: 12px;
+  font-size: 0.75em;
   color: var(--Grey);
   line-height: 1.5;
 }
@@ -84,6 +83,6 @@ h1:hover {
 }
 
 .author__name {
-  font-size: 10px;
+  font-size: 0.625em;
   font-weight: var(--title-font-weight);
 }
